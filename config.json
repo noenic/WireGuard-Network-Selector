@@ -1,0 +1,13 @@
+{
+"Tunnel" : {
+    "Name" : "THE NAME OF YOUR WIREGUARD PROFIL",
+    "Directory" : "THE PATH TO YOUR WIREGUARD PROFIL PROBABLY IN C:\\Program Files\\WireGuard\\Data\\Configurations\\[PROFIL].conf.dpapi"
+    },
+
+"Networks": [
+            "SSID OF TRUSTED NETWORK A",
+            "SSID OF TRUSTED NETWORK B",
+            "SSID OF TRUSTED NETWORK C"
+            ]
+
+}
