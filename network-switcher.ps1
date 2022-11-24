@@ -1,4 +1,4 @@
-#We get the last event log of ID 10001 (connection to a network)
+#We get the last event log of ID 10000 (connection to a network)
 $network= Get-WinEvent -FilterHashtable @{LogName="Microsoft-Windows-NetworkProfile/Operational";ID=10000} -MaxEvents 1 | Select-Object Message | Select-Object -ExpandProperty Message;
 
 #We create a dictionary with the language of the system and the translation of the word "Name"
