@@ -15,11 +15,12 @@ Create a task triggered by an event
 - event ID is *10000*
 
 <strong>Action:</strong>
-- Start a programm (*powershell -ExecutionPolicy ByPass -File "[PATH_TO]\network-switcher.ps1"*)
+- Start a programm (*wscript.exe "[PATH_TO]\run.vbs" "[PATH_TO]\network-switcher.ps1"*)
+(the vbs script allows to run the powershell script without a terminal window while still beeing able to be executed in battery saver mode)
+
 
 <strong>Other Settings:</strong>
 - Run the with highest privileges (Because wireguard command can only be run under admin privileges)
-- Run whether the user is logged in or not (So the powershell window is not displayed)
 - Uncheck the box "Start the task only if the computer is on AC Power" (otherwise the script will not run on battery).
 
 
